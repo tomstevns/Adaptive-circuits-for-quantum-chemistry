@@ -1,4 +1,7 @@
 # This is a sample Python about Adaptive circuits for quantum chemistry.
+# Check the link below too
+# https://pennylane.ai/qml/demos/tutorial_adaptive_circuits.html
+
 
 # The main idea behind building adaptive circuits is to compute the gradients with respect to all possible excitation gates and then select gates based on the magnitude of the computed gradients.
 # There are different ways to make use of the gradient information and here we discuss one of these strategies and apply it to compute the ground state energy of LiH. This method requires constructing the Hamiltonian and determining all possible excitations, which we can do with functionality built into PennyLane. But we first need to define the molecular parameters, including atomic symbols and coordinates. Note that the atomic coordinates are in Bohr.
